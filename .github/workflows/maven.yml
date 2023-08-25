@@ -37,7 +37,7 @@ jobs:
       uses: docker/login-action@v1
       with:
         username: ${{ secrets.annikaa05 }}
-        password: ${{ secrets.Annika@200500 }}
+        password: ${{ secrets.Chandra@200500 }}
         
     - name: Push Docker Image
       run: docker push annikaa05/github-actions-docker-java-app:0.0.1.Release
